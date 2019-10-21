@@ -210,6 +210,7 @@ def most_points_scored
 game_hash.each do |place, team|
   team.each do |attribute, data|
       if attribute == :players 
+        binding.pry
         data.each do |max_score|
           if player[:player_name] == players_name 
             return player[:shoe]
