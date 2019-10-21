@@ -207,17 +207,17 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
-  most_points = 0
-  player = ""
-  game_hash.each do |team_position, team_data|
-    team_data[:players].each do |player_name, player_data|
-      if most_points < player_data[:points]
-         player = player_name
-        most_points = player_data[:points]
-      else 
-        most_points
-      end
-   end
-  end
-  player 
+
+end 
+
+def winning_team
+  
+end 
+
+def player_with_longest_name
+  
+end 
+
+def long_name_steals_a_ton? 
+  
 end 
