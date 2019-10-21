@@ -208,8 +208,17 @@ end
 
 def most_points_scored
 game_hash.each do |place, team|
-  
-end 
+  team.each do |attribute, data|
+      if attribute == :players 
+        data.each do |max_score|
+          if player[:player_name] == players_name 
+            return player[:shoe]
+          end 
+        end 
+      end 
+    end 
+  end
+end
 
 def winning_team 
   
