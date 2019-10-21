@@ -207,7 +207,8 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
-
+game_hash.each do |place, team|
+  
 end 
 
 def winning_team 
